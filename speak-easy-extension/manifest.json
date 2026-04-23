@@ -1,0 +1,28 @@
+{
+    "manifest_version":3,
+    "name":"SpeakEasy",
+    "version":"1.0",
+    "description":"用语音控制浏览器",
+    "permissions":[
+        "storage",
+        "activeTab",
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://localhost:8080/"
+    ],
+    "action":{
+        "default_popup":"popup/popup.html",
+        "default_icon":{
+            "128":"icons/icon128.png"
+        }
+    },
+    "icons":{
+        "128":"icons/icon128.png"
+
+    },
+    "background":{
+        "service_worker":"background.js"
+    }
+}

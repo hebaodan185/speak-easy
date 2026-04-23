@@ -1,0 +1,13 @@
+# 后端忽略
+speak-easy-backend/target/
+speak-easy-backend/.idea/
+speak-easy-backend/*.log
+speak-easy-backend/src/main/resources/application.properties
+
+# 前端忽略
+speak-easy-extension/.idea/
+speak-easy-extension/*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db

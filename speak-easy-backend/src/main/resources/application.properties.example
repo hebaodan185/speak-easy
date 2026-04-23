@@ -1,0 +1,9 @@
+spring.application.name=speak-easy-backend
+spring.datasource.url=jdbc:mysql://localhost:3306/speak_easy?useSSL=false&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=你的密码
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+deepseek.api.key=你的API密钥
+deepseek.api.url=https://api.deepseek.com/v1/chat/completions
+
